@@ -73,6 +73,32 @@ $navbar-default-bg: #5d88bb;
   padding-left: 0;
 }
 
+.badge {
+  background-color: #5d88bb;
+  text-transform:uppercase;
+  //letter-spacing:-1px;
+  font-weight:bold;
+  text-decoration:none;
+  color:white;
+  text-align:center;
+}
+
+.badge a{
+  color:white;
+ 
+}
+
+.badge a:hover{
+  text-decoration:none
+}
+
+
+.input_checkbox input{
+  width: auto !important;
+  
+}
+
+
 footer{
   margin-top:5px;
   padding-top:5px;
